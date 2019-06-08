@@ -1,2 +1,4 @@
 # myIP
-obten tu ip wlan0 
+get ip addres *bash*
+
+
