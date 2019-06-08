@@ -1,4 +1,4 @@
 # myIP
-get ip addres *bash*
+get ip address *bash*
 
 
