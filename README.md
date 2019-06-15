@@ -3,7 +3,6 @@
 -solo funciona en linux probado en
 
 
--Termux(android)NO LO RECOMIENDO
 
 -rasbian pi
 
