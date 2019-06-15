@@ -1,9 +1,13 @@
 #IPscan
 
 -solo funciona en linux probado en
--Termux(android)
+-Termux(android)NO LO RECOMIENDO
+
 -rasbian pi
+
 -AntiX 17.4 (kk)
+
+
 -Kali 
 
 usa nmap para obtener los datos y luego almacenarlos en .txt de tu escritorio Linux
