@@ -1,0 +1,88 @@
+#!/bin/bash
+#IP-scan
+#vercion 0.1
+
+clear
+#asepto criticas constructivas tengo apenas 4 meses en bash
+echo -e "\e[1;31m IP-Scan \e[0m"
+echo -e "\e[1;32mLight Linus, $HOSTNAME\e[0m"
+echo -e "\e[1;31m$0\e[0m";
+echo -e "\e[1;33mBY Noob\e[0m"
+mask=`ifconfig | grep "inet " | grep -v "0.1" | cut -d " " -f10 | cut -d "." -f1,2,3`
+maskNumber=` ifconfig | grep "inet " | grep -v "0.1" | awk '{print $4}'`
+myIP=`ifconfig | grep "inet " | grep -v "0.1" | cut -d " " -f10`
+echo "*****************************************************************************************"
+echo
+echo
+
+#function
+function usage(){
+        echo "eLIGE UNA DE LAS OPCIONES (-h -a)"
+        echo "                  -h: aiuda"
+        echo "                  -a: Analizar red"
+
+}
+
+if [[ -z "$1" ]]; then
+        echo -e "\e[1;31m               PELIGRO :(![0m"
+        echo -e "\e[1;33m       no es una opcion valida[0m"
+        usage
+        echo
+        echo
+fi
+
+
+#case
+
+case $1 in
+
+        "-h")
+                usage
+                echo
+                echo
+;;
+
+
+
+
+        "-a")
+                case  $maskNumber in
+
+
+                255.0.0.0) nmap -sP $mask.0
+                ;;
+
+                255.255.0.0) echo uihvufjk
+                ;;
+                255.255.255.0) nmap -sP $mask.0/24 > nmapMaskC.txt
+                        #cat nmapMaskC.txt | grep "$mask." |  grep -v "$myIP" > computersConnected.txt
+                        cat nmapMaskC.txt | grep "$mask."  | cut -d "(" -f2 | cut -d ")" -f1 | grep -v "$myIP" > ComputadorasConectadas.txt
+
+                        lines=`cat ComputadorasConectadas.txt |wc -l`
+                        for i in 'seq 1 $lines'
+                                do
+                                        lineXline=`cat ComputadorasConectadas.txt | awk 'NR == $i'`
+
+                                                while read linea ; do
+                                                        echo -e "Computadora: "  ${linea} "\e[1;32mCONECTADA\e[0m"
+                                                        done <<< "`cat ComputadorasConectadas.txt`"
+
+                                                done
+                ;;
+
+                *)
+                        echo mistake
+                esac
+
+
+esac
+day=`date +%D`
+hour=`date +%H:%M:%S`
+mkdir -p /var/log/au/
+echo -e "\e[1;32mEL DIA $day ---- $hour HABIA " > /var/log/au/au.log
+echo "`cat ComputadorasConectadas.txt`" >> /var/log/au/au.log
+echo -e "\e[1;32mComputadorasConectadas\e[0m" >> /var/log/au/au.log
+echo
+echo "para ver el log ir a: /var/log/au/au.log"
+echo "----------------------------------------------------------------------------";
+
