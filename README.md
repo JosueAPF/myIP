@@ -26,3 +26,8 @@ ONLY WORK IN LINUX
  ----------------------------------------------
  ## QUE HACE :satellite:
  Es un simple scan de redes hecho en bash que solo funciona en linux jajaja.
+
+## CREADO/DESARROLLADO 🍺:
+
+* [Cmder](https://cmder.net/)
+* [Terminal\GNU ](http://3g2upl4pq6kufc4m.onion/ ) 
