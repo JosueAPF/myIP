@@ -1,3 +1,8 @@
+[![Build Status](https://img.shields.io/badge/Version-0.1--Trash-red)]()
+[![Build Status](https://img.shields.io/badge/Systema---Linux-blue?logo=linux)]()
+
+
+
 # IP SCAN 0.1 
 ###### TRASH VERSION :shit:
 ______________________________________
