@@ -9,8 +9,20 @@ ONLY WORK IN LINUX
 * AntiX 17.4 (kk)
 * Kali 
 * Y solo DIOS sabe en que otra jala.
-
-usa nmap para obtener los datos y luego almacenarlos en .txt de tu escritorio Linux
-es una pequeña script, en la cual estuve trabajando por meses. asepto criticas constructivas.
-
-
+## DEPENDENCIAS
+```
+ Nmap
+ ```
+ ###   INSTALL: :toilet:
+ 
+ #### Linux\distros
+ ```
+ apt-get install nmap
+ ```
+ #### Termux
+ ```
+ pkg install nmap
+ ```
+ ----------------------------------------------
+ ## QUE HACE :satellite:
+ Es un simple scan de redes hecho en bash que solo funciona en linux jajaja.
