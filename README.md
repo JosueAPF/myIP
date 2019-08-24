@@ -1,4 +1,5 @@
-#IPscan
+# IP SACAN 0.1 
+###### TRASH VERSION 
 
 -solo funciona en linux probado en
 
