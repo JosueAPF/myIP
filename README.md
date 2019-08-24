@@ -1,5 +1,5 @@
 # IP SCAN 0.1 
-###### TRASH VERSION 
+###### TRASH VERSION :shit:
 ______________________________________
 
 ####  :trollface: SOLO FUNCIONA PARA LINUX GNU Y SUS DISTROS :trollface:
