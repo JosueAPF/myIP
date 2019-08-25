@@ -29,7 +29,7 @@ ONLY WORK IN LINUX
  ```
  apt-get install nmap
  ```
- #### Termux
+ #### Termux(no jala bien)
  ```
  pkg install nmap
  ```
@@ -41,3 +41,4 @@ ONLY WORK IN LINUX
 
 * [Cmder](https://cmder.net/)
 * [Terminal\GNU ](http://3g2upl4pq6kufc4m.onion/ ) 
+
