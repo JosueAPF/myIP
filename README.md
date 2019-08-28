@@ -1,5 +1,5 @@
 [![Build Status](https://img.shields.io/badge/Version-0.1--Trash-red)]()
-[![Build Status](https://img.shields.io/badge/Systema---Linux-blue?logo=linux)]()
+[![Build Status](https://img.shields.io/badge/Systema---Linux-Blue?logo=linux)]()
 
 
 
