@@ -16,20 +16,17 @@ ______________________________________
 ONLY WORK IN LINUX
 
 * rasbian pi
-* AntiX 17.4 (kk)
-* Kali 
-* Y solo DIOS sabe en que otra jala.
+
 ## DEPENDENCIAS
 ```
  Nmap
  ```
- ###   INSTALL: :toilet:
+ ###   INSTALL: 
  
  #### Linux\distros
  ```
  apt-get install nmap
  ```
- #### Termux(no jala bien)
  ```
  pkg install nmap
  ```
