@@ -12,7 +12,7 @@ ______________________________________
 
 
 
-####  :trollface: SOLO FUNCIONA PARA LINUX GNU Y SUS DISTROS :trollface:
+####   SOLO FUNCIONA PARA LINUX GNU Y SUS DISTROS :
 ONLY WORK IN LINUX
 
 * rasbian pi
